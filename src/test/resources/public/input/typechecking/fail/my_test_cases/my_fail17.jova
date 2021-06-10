@@ -1,0 +1,13 @@
+class Test{
+  public int foo(int x) {
+      int y;
+      int result;
+      x = 3;
+      x = 5;
+      y = 4;
+      result = x + y;
+      x = 10;
+      result = result + x;
+      return result;
+  }
+}

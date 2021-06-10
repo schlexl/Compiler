@@ -1,0 +1,72 @@
+class Main {
+  public int main() {
+        int a, b, c, ret;
+        bool test;
+
+        a = 5;
+        b = 10;
+        test = a < b;
+        ret = print(test);
+        ret = print(a<b);
+        if(test) {
+          ret = print("works\n");
+        }
+
+        if(a < b) {
+          ret = print("works\n");
+        }
+        ret = print("print false =");
+        ret = print(a>b);
+        ret = print("\n");
+        if(a > b) {
+          ret = print("FAIL!!!\n");
+        }
+        else {
+          ret = print("works\n");
+        }
+        ret = print("&&\n");
+        test = false;
+        if(a < b && test) {
+          ret = print("FAIL!!!\n");
+        }
+        else {
+          ret = print("works\n");
+        }
+        ret = print("&& + !\n");
+        ret = print(5==4 && true);
+
+        if(true && !false) {
+          ret = print("ok\n");
+        }
+        test = false;
+        if(5>4 && !test) {
+          ret = print("ok\n");
+        }
+        if(b>a && !test) {
+          ret = print("ok\n");
+        }
+
+
+
+        ret = print("|| + !\n");
+        ret = print(!(false));
+
+
+        if(!(a < b) || !test) {
+          ret = print("works!\n");
+        }
+
+        ret = print(test);
+        if(!!!!!!!test) {
+          ret = print("ok!!\n");
+        }
+
+
+
+        if(b >= a && (!test || a == b)) {
+          ret = print("works!!\n");
+        }
+
+        return 0;
+  }
+}

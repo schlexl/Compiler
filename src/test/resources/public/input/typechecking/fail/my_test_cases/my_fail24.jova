@@ -1,0 +1,20 @@
+class Test{
+
+}
+
+class Main{
+    public int x;
+    Test test = new Test();
+
+    public int notallowed() {
+      return 0;
+    }
+
+    Main() {
+
+    }
+
+    public int main() {
+        return 0;
+    }
+}

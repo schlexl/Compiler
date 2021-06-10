@@ -1,0 +1,15 @@
+class Main {
+  public int main() {
+    int a, b, c,d, plt;
+    bool test;
+    a = 3;
+    b = a + 8;
+    test = true && false;
+    plt = print(test);
+    test = 5<6;
+    plt = print(test);
+
+
+    return 0;
+  }
+}

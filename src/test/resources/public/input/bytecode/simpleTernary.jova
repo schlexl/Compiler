@@ -1,0 +1,29 @@
+class Main {
+  public int main() {
+    int c;
+    bool z;
+    int ans;
+
+    int ret;
+
+    c  = (false) ? 5 : 10;
+    z = (false) ? true : false;
+    ret = print(c);
+    ret = print("\n");
+    ret = print(z);
+    ret = print("\n");
+
+    ans = true ? false ? 3 : 5 : 0;
+    ret = print(ans);
+    ret = print("\n");
+
+    c  = (5>4) ? 5 : 10;
+    z = 5>4 ? true : false;
+    ret = print(c);
+    ret = print("\n");
+    ret = print(z);
+
+
+    return 0;
+  }
+}

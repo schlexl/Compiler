@@ -1,0 +1,30 @@
+class Test{
+
+
+
+}
+
+class OtherClass{
+
+}
+
+
+class Main {
+
+  public int main() {
+    int var;
+    bool boolean;
+    x = 3;
+    var = x + 2;
+    var = x - 2;
+    var = x * 2;
+    var = x / 2;
+    var = x % 2;
+    boolean = x > 2;
+    boolean = x && 2;
+    boolean = x || 2;
+    boolean = !x;
+    return 0;
+    }
+}
+

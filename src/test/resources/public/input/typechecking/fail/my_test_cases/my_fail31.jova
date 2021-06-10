@@ -1,0 +1,26 @@
+class MyClass {
+
+
+}
+
+class Main {
+    public int main() {
+       int x;
+       int count;
+       x = 3;
+       count = 0;
+
+       while(x > count) {
+            count = count + 1;
+       }
+
+      while(x > count) {
+           count = count + 1;
+      }
+
+      if(x == "true") {
+      }
+
+      return 0;
+    }
+}

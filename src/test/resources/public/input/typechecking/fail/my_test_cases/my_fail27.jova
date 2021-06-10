@@ -1,0 +1,17 @@
+class Test{
+
+    Test() {
+        int x;
+    }
+
+    Test(int test) {
+        int x;
+    }
+
+    Test(String s) {
+        String x;
+        int x;
+    }
+
+}
+

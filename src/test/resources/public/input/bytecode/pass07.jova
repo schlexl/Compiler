@@ -1,0 +1,8 @@
+class Tower {
+  private int modifier;
+}
+
+class Printer{
+  private int i1, i2, i3;
+  private Tower t1;
+}

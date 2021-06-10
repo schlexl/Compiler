@@ -1,0 +1,52 @@
+class Test{
+    public int testmeth(){
+    int x;
+    int y;
+    bool boolean;
+    String z;
+    y = 3;          //expected
+    y = true;       //accepted
+    y = false;      //accepted
+    boolean = true; //expected
+    boolean = false;//expected
+    boolean = 2;    //accpeted
+    boolean = y;    //accpeted
+
+    z = "test";     //expected
+    z = 1;          //rejected
+    z = y;          //rejected
+    z = true;       //rejected
+    z = boolean;    //rejected
+    z = nix;        //rejected
+
+
+    return 0;
+    }
+}
+
+class OtherClass{
+    public int methodotherClass(){
+        String z;
+        Test test;
+        test = new Test;
+        z = test;          //rejected
+        test = nix;        //expected
+        test = 2;          //rejected
+        test = "test";     //rejected
+        test = 2;          //rejected
+        test = nix;        //expected
+
+
+         return 0;
+    }
+}
+
+
+class Main {
+
+  public int main() {
+
+    return 0;
+    }
+}
+

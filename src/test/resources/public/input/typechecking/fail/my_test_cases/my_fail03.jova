@@ -1,0 +1,11 @@
+class Main {
+
+  public int main() {
+    return 0;
+  }
+
+  public String notPossible() {
+    return "";
+  }
+
+}

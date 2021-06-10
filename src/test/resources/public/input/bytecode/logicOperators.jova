@@ -1,0 +1,17 @@
+class Main {
+    public int main() {
+        int a;
+        int b;
+
+        a = 1;
+        b = 0;
+
+        if (a == 2 || b == 0) {
+            a = print("b == 0\n");
+        } else {
+            a = print("BAD");
+        }
+
+        return 0;
+    }
+}

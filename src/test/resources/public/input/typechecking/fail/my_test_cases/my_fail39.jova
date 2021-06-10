@@ -1,0 +1,22 @@
+class Test {
+  public int touchMe;
+  public int touchmeMeth() {
+          return 0;
+  }
+}
+
+class Main {
+
+  public int main() {
+    Test test;
+    int ret;
+
+    test = new Test;
+    test.touchMe = 1;
+
+    ret = test.touchmeMeth();
+
+    return 0;
+  }
+
+}

@@ -1,0 +1,24 @@
+class Test{
+    public int testmeth(){
+    x = 3;
+    return 0;
+    }
+}
+
+class OtherClass{
+    public int methodotherClass(){
+    Test2 test;
+    test = new Test2;
+         return 0;
+    }
+}
+
+
+class Main {
+
+  public int main() {
+
+    return 0;
+    }
+}
+

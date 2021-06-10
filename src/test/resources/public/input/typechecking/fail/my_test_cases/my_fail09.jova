@@ -1,0 +1,27 @@
+class Test{
+
+  public int print(int x){
+    return 0;
+  }
+
+  public int print(String y){
+       return 0;
+     }
+
+  public int print(bool y){
+         return 0;
+       }
+
+  public int print(bool y, int x){
+            return 0;
+          }
+}
+
+class Main {
+
+  public int main() {
+
+    return 0;
+  }
+
+}

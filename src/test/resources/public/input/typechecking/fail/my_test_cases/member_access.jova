@@ -1,0 +1,43 @@
+class Tmp {
+    public int one() {
+        return 1;
+    }
+
+    public int one(int t) {
+        return t;
+    }
+}
+
+class Test {
+    public Tmp tmp;
+
+    public int fortyTwo(int t) {
+        return t;
+    }
+
+    public Tmp getTmp(Tmp t) {
+        return t;
+    }
+}
+
+class Test_1 {
+    public Test test;
+}
+
+class Main {
+
+  public int main() {
+    Test_1 test_1;
+    Tmp tmp;
+    int i;
+
+    tmp = test_1.test.getTmp(test_1.test.tmp);
+    i = tmp.one();
+
+    i = tmp.one(2);
+    i = test_1.test.fortyTwo(42);
+
+    return 0;
+  }
+}
+

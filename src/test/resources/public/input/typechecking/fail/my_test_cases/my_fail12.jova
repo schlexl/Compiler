@@ -1,0 +1,11 @@
+class Test{
+public int main() {
+
+    return 0;
+    }
+}
+
+class Main {
+
+
+}

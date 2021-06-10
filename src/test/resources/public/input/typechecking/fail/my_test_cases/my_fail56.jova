@@ -1,0 +1,71 @@
+class Evaluation{
+
+  private String msg;
+  private int course_number;
+
+  Evaluation() {
+
+      }
+
+  public int init()
+  {
+    return print("Please dont forget to evaluate this course!\n");
+  }
+
+  public String getMsg()
+  {
+    return msg;
+  }
+
+  public int setEvalMsg(String new_msg, int course_num)
+  {
+    msg = new_msg;
+    course_number = course_num;
+    return 0;
+  }
+  public int calc(int x)
+  {
+  int a;
+  a = x + 3;
+  return a;
+  }
+
+}
+
+
+class Main {
+
+  public int main() {
+
+    Evaluation eval;
+    int ret;
+    bool test;
+    bool test2;
+    int x;
+    bool boolean;
+    int integer;
+    int value;
+    String wort;
+    Test test;
+
+    test = new Test;
+
+
+
+    x = a;
+
+
+    eval = new Evaluation;
+
+
+    ret = eval.setEvalMsg("This course was so cool, I want to do it again next year!", 716077);
+    ret = eval.setEvalMsg("jk. Im glad its over...", 716077);
+
+    ret = eval.setEvalMsg2("jk. Im glad its over...", 716077);
+    eval = new Evaluation();
+    eval = new Evaluation2();
+
+    return 0;
+  }
+
+}

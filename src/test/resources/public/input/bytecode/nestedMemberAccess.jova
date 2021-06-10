@@ -1,0 +1,29 @@
+class Tmp {
+    public int i;
+
+    Tmp() {
+        i = 3;
+    }
+}
+
+class Tmp2 {
+    public Tmp test;
+
+    Tmp2() {
+        test = new Tmp();
+    }
+}
+
+class Main {
+    public int main() {
+        int a;
+        Tmp2 t2;
+
+        t2 = new Tmp2();
+
+        a = print(t2.test.i);
+
+        return 0;
+    }
+}
+

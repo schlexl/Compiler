@@ -1,0 +1,18 @@
+class Main {
+  public int main() {
+    int a, b, c,d, plt;
+     a = 4 + 5;
+     a = a;
+     b = a;
+     a = b;
+     c = b;
+     d = a;
+     c = d;
+     plt = print(d);
+     plt = print(d);
+     plt = print(d);
+     plt = print(d);
+     d = c;
+    return 0;
+  }
+}

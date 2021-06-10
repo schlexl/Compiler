@@ -1,0 +1,14 @@
+class Main {
+  public int main() {
+      int ret;
+      int a;
+      int b;
+      a = 3;
+      b = 4;
+      if(b >= a)
+      {
+        ret = print("works!!");
+      }
+      return 0;
+    }
+}

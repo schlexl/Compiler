@@ -1,0 +1,13 @@
+class Test{
+
+  public int foo(int x){
+      int y;
+      return 0;
+  }
+
+  public bool foo(int x){
+        int y;
+        return false;
+   }
+
+}

@@ -1,0 +1,13 @@
+class Test{
+    public int func(String x, int y){
+
+        return 20;
+    }
+
+    public int nestedIsland() {
+        int var;
+        var = func("blabla", 42);
+        return 0;
+    }
+
+}

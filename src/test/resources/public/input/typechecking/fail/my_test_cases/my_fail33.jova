@@ -1,0 +1,11 @@
+
+class Test{
+    public bool func(String x, int y){
+
+        return false;
+    }
+    public bool func(bool x, int y){
+
+        return false;
+    }
+}

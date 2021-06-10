@@ -1,0 +1,51 @@
+class Test {
+    private int dont_touch_me;
+
+    Test (int x, String y) {
+        int x;
+        int z;
+        int z;
+        int dont_touch_me;
+    }
+
+    Test (int x, String y) {
+
+    }
+
+    Test() {
+        int i;
+    }
+
+    public int fortyTwo() {
+        return 42;
+    }
+}
+
+class Main {
+  public int main() {
+    return 0;
+  }
+}
+
+class Tmp {
+    public Main test;
+    public int i;
+
+    public Main main(int hallo) {
+        Test a;
+        int z;
+        String s;
+
+        int i;
+
+        a = new Main;
+
+        a = new Test;
+        a = new Test();
+        a = new Test(s, z);
+        a = new Test(z, s);
+        a = new Test(z, a.dont_touch_me);
+
+        return test;
+    }
+}

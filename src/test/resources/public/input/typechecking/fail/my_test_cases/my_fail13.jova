@@ -1,0 +1,16 @@
+class Test{
+
+    public bool main() {
+
+    return 0;
+    }
+}
+
+class Main {
+
+  public String main() {
+
+    return 0;
+  }
+
+}

@@ -1,0 +1,17 @@
+class Test{
+  public int foo(int x){
+    return 0;
+  }
+
+  public int foo(){
+    return 0;
+  }
+
+  public int foo() {
+      return false;
+  }
+
+  public int foo(String x){
+    return 0;
+  }
+}

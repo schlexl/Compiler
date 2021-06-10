@@ -1,0 +1,98 @@
+class Tmp {
+    public int test;
+    Tmp() {
+        test = 5;
+    }
+}
+
+class IntInit {
+    public int test;
+    public Tmp t;
+
+    IntInit(int i) {
+        test = i;
+    }
+
+    IntInit(int i, String message) {
+        test = print(message);
+        test = i;
+    }
+
+    IntInit(int i, String message, bool b) {
+        test = print(message);
+        test = print(b);
+        test = print("\n");
+        test = i;
+    }
+
+    IntInit(Tmp t_1) {
+        if (t_1 == nix) {
+            test = print("t_1 is NIX :(");
+        } else {
+            t = t_1;
+            test = print("t.test is: ");
+            test = print(t.test);
+            test = print("\n");
+        }
+    }
+
+    IntInit() {
+        if (5 != 6) {
+            test = print("\n5 != 6\n");
+        }
+
+        if (5 != 7) {
+            test = print("5 != 7\n");
+        }
+
+        if (5 != 8) {
+            test = print("5 != 8\n");
+        }
+    }
+}
+
+class Main {
+    public int main() {
+        int a;
+        IntInit i;
+        Tmp t;
+
+        t = new Tmp();
+
+        i = new IntInit(2);
+
+        a = print(i.test);
+        a = print("\n");
+        a = print(t.test);
+        a = print("\n");
+
+        i = new IntInit(50, "Hi there!\n");
+        a = print(i.test);
+        a = print("\n");
+
+        i = new IntInit(25, "Hi there!\n", true);
+        a = print(i.test);
+        a = print("\n");
+
+        i = new IntInit(t);
+        if (i.t == nix) {
+            a = print("bad\n");
+        } else {
+            a = print(i.t.test);
+        }
+
+        i = new IntInit();
+        if (i.t == nix) {
+            a = print("\nNIX\n");
+        }
+
+        if (i.test == 0) {
+            a = print(i.test);
+            a = print("\n");
+        }
+
+        i = new IntInit(nix);
+
+        return 0;
+    }
+}

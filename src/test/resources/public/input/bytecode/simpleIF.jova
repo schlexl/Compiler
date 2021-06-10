@@ -1,0 +1,57 @@
+class Main {
+  public int main() {
+    int ret;
+    if(true)
+    {
+        ret = print("show\n");
+    }
+    if(true)
+    {
+        ret = print("show\n");
+    }
+
+
+    if(false)
+    {
+        ret = print("dont show\n");
+    } else {
+        ret = print("show again\n");
+    }
+
+    if (3 <= 5)
+    {
+        ret = print("3 <= 5\n");
+    }
+
+    if (5 <= 3)
+    {
+        ret = print("dont show\n");
+    }
+    else
+    {
+        ret = print("5 <= 3\n");
+    }
+
+    if (5 <= 3)
+    {
+        ret = 20;
+    }
+        if (5 <= 3)
+        {
+            ret = 20;
+        }
+      if (5 <= 3)
+      {
+          ret = 20;
+      }
+      else
+      {
+          ret = print("5 <= 3\n");
+      }
+
+
+    ret = print("END\n");
+
+    return 0;
+  }
+}

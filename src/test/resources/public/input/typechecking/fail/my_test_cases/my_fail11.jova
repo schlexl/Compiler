@@ -1,0 +1,15 @@
+class Test{
+public int main() {
+
+    return 0;
+    }
+}
+
+class NoMainClass {
+
+  public int main() {
+
+    return 0;
+  }
+
+}

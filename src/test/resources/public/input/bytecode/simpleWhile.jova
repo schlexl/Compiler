@@ -1,0 +1,20 @@
+class Main {
+  public int main() {
+    int ret;
+    int a;
+    int b;
+    bool test;
+    a = 2;
+    b = 1;
+    test = true;
+
+    while(b <= 5) {
+       test = false;
+       a    = print(b);
+       a    = print("\n");
+       b    = b + 1;
+    }
+
+    return 0;
+  }
+}

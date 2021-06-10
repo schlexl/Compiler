@@ -1,0 +1,26 @@
+class Test{
+
+  public int foo2(int x){
+      int y;
+      return "0";
+  }
+
+
+  public int foo(int x){
+      int y;
+      return "y";
+  }
+
+   public String foo(int x){
+        int y;
+        return print(y);
+   }
+
+   public int foo(int x){
+        int y;
+        return true;
+   }
+
+
+
+}

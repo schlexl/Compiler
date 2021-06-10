@@ -1,0 +1,9 @@
+class Main {
+
+  private int error;
+
+  public int main() {
+    return 0;
+  }
+
+}

@@ -1,0 +1,7 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 3
+  #1: line 12:12 mismatched input '.' expecting {')', '?', RELOP, MULOP, '&&', '||', ADDOP}
+  #2: line 12:14 mismatched input ')' expecting {'=', '.'}
+  #3: line 15:3 extraneous input '}' expecting {'if', 'while', 'return', ID}

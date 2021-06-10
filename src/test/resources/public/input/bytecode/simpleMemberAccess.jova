@@ -1,0 +1,44 @@
+class Tmp {
+    public int test;
+
+    public int test_1() {
+        test = 5;
+
+        return 0;
+    }
+}
+
+class Tmp1 {
+    public int test_2() {
+        Tmp t;
+        int i;
+
+        t = new Tmp;
+
+        i = t.test_1();
+        i = t.test;
+
+        if (i != 5) {
+            i = print("HOUSTON WE HAVE A PROBLEM!\n");
+        }
+        else {
+            i = print(i);
+            i = print("\n");
+            i = print("SUCCESSFULLY ASSIGNED MEMBER TO LOCAL VAR!\n");
+        }
+
+        return 0;
+    }
+}
+
+class Main {
+    public int main() {
+        Tmp1 t1;
+        int  a;
+        t1 = new Tmp1;
+
+        a = t1.test_2();
+
+        return 0;
+    }
+}

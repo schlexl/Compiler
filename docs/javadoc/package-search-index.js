@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"at.tugraz.ist.cc"},{"l":"at.tugraz.ist.cc.error"},{"l":"at.tugraz.ist.cc.error.lexandparse"},{"l":"at.tugraz.ist.cc.error.typechecker"},{"l":"at.tugraz.ist.cc.warning"},{"l":"at.tugraz.ist.cc.warning.typechecker"}]

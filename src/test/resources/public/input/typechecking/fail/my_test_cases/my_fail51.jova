@@ -1,0 +1,25 @@
+class Test{
+
+
+}
+class OtherClass{
+
+
+}
+class Main {
+
+  public int main() {
+    int i;
+    int a;
+    Test test;
+    OtherClass test2;
+    test = new Test;
+    test2 = new OtherClass;
+    i = 0;
+    test = i == 1 ? test : test2;
+    test = i == 1 ? test : nix;
+    test = i == 1 ? nix : nix;
+    return 0;
+    }
+}
+

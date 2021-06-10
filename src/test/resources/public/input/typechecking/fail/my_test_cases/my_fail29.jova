@@ -1,0 +1,25 @@
+class MyClass {
+    MyClass() {
+
+    }
+
+}
+
+class Main{
+
+    public int main(){
+        MyClass myclass;
+        MyClass foo;
+        String a;
+        int z;
+
+        myclass = new MyClass;
+        foo     = new MyClass();
+        a       = "test";
+        foo     = new MyClass(a);
+        z       = 2;
+        foo     = new MyClass(z);
+        return 0;
+
+    }
+}

@@ -1,0 +1,12 @@
+class Test{
+    public int x;
+
+    private String msg;
+    private int course_number;
+
+    public int method() {
+        int x;
+        return 0;
+    }
+}
+

@@ -1,0 +1,66 @@
+
+class Main {
+
+  public int main() {
+    bool test;
+    bool test2;
+    int x;
+    bool boolean;
+    int integer;
+    int value;
+
+    boolean = true;
+    value = 5;
+    test = boolean > 3;
+    test = boolean > value;
+    test = value > boolean;
+    test = boolean > boolean;
+    test = 2 + 5 > 3 + boolean;
+    test = 2 + boolean > value + 8;
+    test = value + 5 > 3 + boolean;
+    test = 2 < boolean;
+    test = boolean < 3;
+    test = 2 < boolean;
+    test = value < boolean;
+    test = 2 + 5 < 3 + boolean;
+    test = boolean + 5 < 3 + value;
+    test = boolean <= 3;
+    test = value <= boolean;
+    test = boolean <= value;
+    test = 2 + 5 >= boolean + 8;
+
+    // arithmetic
+    integer = 3;
+    x = 2 + boolean;
+    x = boolean + integer;
+    x = boolean + 3;
+    x = integer - boolean;
+    x = 3 - boolean;
+    x = integer - boolean;
+    x = 3 - boolean;
+    x = boolean / integer;
+    x = boolean / 3;
+    x = integer / boolean;
+    x = boolean / 3;
+    x = integer % boolean;
+    x = boolean % 3;
+    x = integer % boolean;
+    x = 4 * boolean;
+    x = boolean * 3;
+    x = boolean * integer;
+    x = boolean * boolean;
+
+    //logic
+    boolean = false;
+    test2 = !integer;
+    test2 = true && integer;
+    test2 = integer && boolean;
+    test2 = true || integer;
+    test2 = integer || boolean;
+    test2 = integer || integer;
+    test2 = boolean || integer;
+
+    return 0;
+  }
+
+}

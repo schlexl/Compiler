@@ -1,0 +1,16 @@
+class Main {
+    public int main() {
+        int a;
+        a = -2;
+
+        a = print(a);
+        a = print("\n");
+        a = print(!a);
+        a = print("\n");
+        a = print(!true);
+        a = print("\n");
+        a = print(!1);
+
+        return 0;
+    }
+}

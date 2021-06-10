@@ -1,0 +1,8 @@
+class Main {
+  public int x;
+  public int main() {
+
+    return 0;
+  }
+
+}

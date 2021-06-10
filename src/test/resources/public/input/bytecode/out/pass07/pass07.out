@@ -1,0 +1,2 @@
+Fehler: Hauptklasse Main konnte nicht gefunden oder geladen werden
+Ursache: java.lang.ClassNotFoundException: Main

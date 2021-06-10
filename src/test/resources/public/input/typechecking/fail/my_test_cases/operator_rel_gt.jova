@@ -1,0 +1,59 @@
+class Tmp {
+    public int one() {
+        return 1;
+    }
+}
+
+class Test{
+    private Tmp tmp;
+
+    public int fortyTwo() {
+        return 42;
+    }
+
+    public Tmp getTmp() {
+        tmp = new Tmp;
+
+        return tmp;
+    }
+}
+class Main {
+
+  public int main() {
+    int  i;
+    Test t;
+    Tmp  tmp;
+    bool ret;
+    bool test_2;
+
+    test_2 = true;
+
+    i   = 0;
+    tmp = t.getTmp();
+
+    ret = i > t.fortyTwo();
+    ret = i > tmp.one();
+    ret = i > test_2;
+    ret = i > "string";
+    ret = i > nix;
+    ret = i > t;
+    ret = test_2 > i;
+    ret = "string" > i;
+    ret = nix > i;
+    ret = x > k;
+    ret = i > true;
+    ret = nix > t;
+    ret = t > nix;
+    ret = "test" < "test";
+    ret = t > true;
+    ret = true > true;
+
+    ret = "test" == "test";
+    ret = t == nix;
+    ret = "test" == 1;
+    ret = t == 1;
+    ret = 1 == true;
+    return 0;
+  }
+}
+

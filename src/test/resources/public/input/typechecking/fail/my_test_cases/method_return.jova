@@ -1,0 +1,32 @@
+class Tmp {
+    public int one() {
+        return 1;
+    }
+}
+
+class Test{
+    private Tmp tmp;
+
+    public UnknownType fortyTwo() {
+        return 42;
+    }
+
+    public Tmp getTmp() {
+        tmp = new Tmp;
+
+        return tmp;
+    }
+}
+class Main {
+
+  public int main() {
+    int i;
+    bool j;
+    int k;
+
+    i = -j;
+
+    return 0;
+  }
+}
+

@@ -1,0 +1,64 @@
+class Test{
+    public int testint;
+    public int testint;         //error check
+    public int testint;         //error check
+    public String testint;      //error check
+
+    Test(int a) {
+        int a;                  //error check
+        int a;                  //error check
+    }
+    Test(int a) {               //error check
+        int a ;                 //error check
+    }
+
+
+     public int func(int a, String b) {
+        int a;                  //error check
+        int a;                  //error check
+        int b;                  //error check
+        Test test;
+        Test test;              //error check
+       return 0;
+       }
+
+     public int func(int a, String b) {     //error check
+        int a;                              //error check
+        int a ;                             //error check
+        return 0;
+      }
+}
+
+class Test{                     //error check
+
+    public int testint2;
+    public int testint2;        //error not
+    public int testint2;        //error not
+
+     public int func(int a, String b) {
+       return 0;
+       }
+      public int func(int a, String b) {    //error not
+        return 0;
+        }
+}
+
+class Main {
+
+}
+
+
+class Main {
+
+}
+
+
+class Double{
+
+
+}
+
+
+class Double{
+
+}

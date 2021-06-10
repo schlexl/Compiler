@@ -1,0 +1,13 @@
+class Tmp {
+    Tmp() {
+
+    }
+
+    Tmp(int test) {
+        String hallo;
+    }
+
+    Tmp (String s) {
+        String hallo;
+    }
+}

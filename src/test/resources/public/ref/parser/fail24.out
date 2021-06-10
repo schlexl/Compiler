@@ -1,0 +1,6 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 2
+  #1: line 7:5 extraneous input 'new' expecting {'if', 'while', 'return', PRIMITIVE_TYPE, CLASS_TYPE, ID}
+  #2: line 7:14 mismatched input '=' expecting {';', ','}

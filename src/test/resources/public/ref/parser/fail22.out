@@ -1,0 +1,6 @@
+
+Number of lexical errors: 0
+
+Number of syntax errors: 2
+  #1: line 25:21 missing ';' at 'test'
+  #2: line 25:25 mismatched input ')' expecting {'=', '.'}

@@ -1,0 +1,19 @@
+class Test{
+
+}
+class Main {
+
+  public int main() {
+      int x;
+      Test test;
+      test = new Test;
+      x = 3;
+
+      while (test){
+        x = 4;
+       }
+       return 0;
+
+    }
+}
+

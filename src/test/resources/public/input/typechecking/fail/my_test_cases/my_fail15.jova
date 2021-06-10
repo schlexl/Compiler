@@ -1,0 +1,17 @@
+class DoubleDecClass{
+
+}
+class DoubleDecClass{
+
+}
+
+
+
+class Main {
+
+  public int main() {
+
+    return 0;
+  }
+
+}

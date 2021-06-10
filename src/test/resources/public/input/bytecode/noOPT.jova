@@ -1,0 +1,22 @@
+class Main {
+  public int main() {
+    int ret;
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+    int f;
+    int plt;
+
+
+    a = 10 ;
+    b = 5;
+    c = 2 * 3 - 1;
+    d = a % (b-c);
+    plt = print(d);
+
+
+    return 0;
+  }
+}

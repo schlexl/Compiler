@@ -1,0 +1,16 @@
+class Main {
+
+  public int main() {
+    bool test;
+    bool test2;
+    int x;
+    bool boolean;
+    int integer;
+    int value;
+    String wort;
+
+    x = a;
+    return 0;
+  }
+
+}

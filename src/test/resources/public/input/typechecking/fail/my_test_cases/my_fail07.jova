@@ -1,0 +1,20 @@
+class Tmp0 {
+    private String dont_touch_me;
+}
+
+class Tmp1 {
+    public Tmp0 touch_me;
+}
+
+class Tmp2 {
+    public Tmp1 touch_me;
+}
+
+class Main {
+    public int main() {
+        Tmp2 test;
+        test = new Tmp2;
+        test.touch_me.touch_me.dont_touch_me = "test";
+        return 0;
+    }
+}

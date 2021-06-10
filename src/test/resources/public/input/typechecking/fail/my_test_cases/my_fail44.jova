@@ -1,0 +1,22 @@
+
+class Main {
+
+  public int main() {
+    int x;
+    int y;
+    int result;
+    bool boolean;
+    String text;
+
+    x = 2;
+    y = 4;
+
+    result = 2 + 3 * 4;
+    result = 2 / 4;
+    result = 2 % 4;
+    x = print(result);
+
+    return 0;
+  }
+
+}

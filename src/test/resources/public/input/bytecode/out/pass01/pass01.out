@@ -1,0 +1,2 @@
+Fehler: Hauptklasse Main kann nicht initialisiert werden
+Ursache: java.lang.VerifyError: (class: Main, method: main signature: ([Ljava/lang/String;)V) Unable to pop operand off an empty stack

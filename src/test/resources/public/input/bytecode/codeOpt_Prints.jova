@@ -1,0 +1,23 @@
+class Main {
+  public int main() {
+    int a, b, c,d, plt;
+    a = 4 % 3;
+    plt = print(a);
+    plt = print("\n");
+    a = 2+4;
+    plt = print(a);
+    plt = print("\n");
+    b = a;
+    c = print(b);
+    plt = print("\n");
+    b = print(a+b+4);
+    plt = print("\n");
+    plt = print(a*3 + 4 + 2*5 - 6 + 4 );
+    plt = print(4+ 2*5 - 6 + 4 );
+    plt = print("\n");
+    plt = print(plt);
+    plt = 4;
+
+    return 0;
+  }
+}

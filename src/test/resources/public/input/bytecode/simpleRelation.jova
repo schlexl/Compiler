@@ -1,0 +1,36 @@
+class Main {
+  public int main() {
+    bool test;
+    int ret;
+    int a;
+    int b;
+    a = 3;
+    b = 6;
+    test = 6>6;
+    ret = print("Trues below: \n");
+    ret = print(test);
+    ret = print("\n");
+    ret = print(3!=6);
+    ret = print("\n");
+    ret = print(3==3);
+    ret = print("\n");
+    ret = print(4>=3);
+    ret = print("\n");
+    ret = print(4>3);
+    ret = print("\n");
+
+    ret = print("False below: \n");
+    ret = print(a==b);
+    ret = print("\n");
+    ret = print(a!=a);
+    ret = print("\n");
+    ret = print(5>6);
+    ret = print("\n");
+    ret = print(6<4);
+    ret = print("\n");
+
+
+
+    return 0;
+  }
+}

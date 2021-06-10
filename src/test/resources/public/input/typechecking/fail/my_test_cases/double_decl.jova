@@ -1,0 +1,25 @@
+class Tmp {
+
+}
+
+class Test {
+    private Tmp tmp;
+
+    public int fortyTwo(int test) {
+        bool tmp;
+        String test;
+
+        return 42;
+    }
+
+    public int fortyOne(int test, bool test, int test) {
+        bool test;
+
+        return 0;
+    }
+
+    public int fortyOne(int test, bool test, int test) {
+        return 0;
+    }
+}
+

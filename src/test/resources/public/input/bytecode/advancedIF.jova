@@ -1,0 +1,41 @@
+class Test {
+  public bool test(int i)
+  {
+    bool b;
+
+    if(i > 1)
+    {
+      b = true;
+    }
+    else
+    {
+      b = false;
+    }
+    return b;
+  }
+}
+
+class Main {
+  public int main() {
+    int a, b;
+    Test test;
+    test = new Test;
+
+    a = 5;
+    if(test.test(a))
+    {
+      b = print("works\n");
+    }
+    if(test.test(3))
+    {
+      b = print("fail\n");
+    }
+    else
+    {
+      b = print("works again\n");
+    }
+
+    return 0;
+  }
+
+}
