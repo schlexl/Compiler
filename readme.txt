@@ -2,9 +2,9 @@ Frame work tested with OpenJDK11 + gradle 5.2.1
 
 Group14
 
-Benjamin Biber    (01530133)   benjamin.biber@student.tugraz.at
-Alexander Wachter (01532068)   a.wachter@student.tugraz.at
-Bernhard Salzmann ()            ....
+Benjamin B.    ()   
+Alexander W. ()   
+
 
 
 Description of the Program:
@@ -66,9 +66,8 @@ Implemented BONUS tasks:
 
 Percentage of participation:
 ----------------------------
-Benjamin Biber       50%
-Alexander Wachter    50%
-Bernhard Salzmann     0%
+Benjamin B.       50%
+Alexander W.    50%
 
 
 -------------------
@@ -103,7 +102,7 @@ Implemented BONUS tasks:
 
 Percentage of participation:
 ----------------------------
-Benjamin Biber       50%
-Alexander Wachter    50%
-Bernhard Salzmann     0%
+Benjamin B.       50%
+Alexander W.    50%
+
 
